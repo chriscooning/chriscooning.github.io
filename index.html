@@ -25,10 +25,10 @@
 	
 </head>
 <script>
-document.getElementsByTagName('video')[0].onended = function () {
+$('video').on('ended', function () {
   this.load();
   this.play();
-};
+});
 </script>
 
 <body>
