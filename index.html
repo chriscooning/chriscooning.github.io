@@ -24,12 +24,6 @@
 	<link href="01-cv-portfolio/css/responsive.css" rel="stylesheet">
 	
 </head>
-<script>
-$('video').on('ended', function () {
-  this.load();
-  this.play();
-});
-</script>
 
 <body>
 			<video id="videobg" autoplay muted loop>
@@ -428,6 +422,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="common-js/jquery.fluidbox.min.js"></script>
 	
 	<script src="common-js/scripts.js"></script>
+
+	<script>
+$('video').on('ended', function () {
+  this.load();
+  this.play();
+});
+</script>
 	
 </body>
 </html>
