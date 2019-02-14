@@ -25,16 +25,10 @@
 	
 </head>
 <script>
-	window.addEventListener('load', function(){
-    var newVideo = document.getElementById('videobg');
-    newVideo.addEventListener('ended', function() {
-        this.currentTime = 0;
-        this.play();
-    }, false);
-
-    newVideo.play();
-
-});
+document.getElementsByTagName('video')[0].onended = function () {
+  this.load();
+  this.play();
+};
 </script>
 
 <body>
