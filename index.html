@@ -24,6 +24,19 @@
 	<link href="01-cv-portfolio/css/responsive.css" rel="stylesheet">
 	
 </head>
+<script>
+	window.addEventListener('load', function(){
+    var newVideo = document.getElementById('videobg');
+    newVideo.addEventListener('ended', function() {
+        this.currentTime = 0;
+        this.play();
+    }, false);
+
+    newVideo.play();
+
+});
+</script>play
+
 <body>
 			<video id="videobg" autoplay muted loop onended="play();">
 				
