@@ -123,7 +123,7 @@ video {
 
 header{ position: absolute; top: 30px; left: 0; right: 0; z-index: 100; }
 
-header .heading-wrapper{ border-radius: 5px; padding: 30px 40px 20px; background: #1d1d1d; color: #fff; }
+header .heading-wrapper{ border-radius: 5px; padding: 20px 40px; background: #1d1d1d; color: #fff; border-radius:15px; }
 
 /*  dont need this header .info{ margin-bottom: 10px; } */
 
@@ -145,7 +145,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 --------------------------------- */
 
 .intro-section{ padding-top: 200px; position: relative; background-size: cover; 
-	z-index: 1;background-image: url(##TODO-VIDEO##r); height:660px; border-radius:15px; }
+	z-index: 1;background-image: url(##TODO-VIDEO##r); height:660px; }
 
 .intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
 	right: 0; background: rgba(0,0,0, .2); }
@@ -153,7 +153,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 .intro-section:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
 	height: 150px; z-index: -1; }
 
-.intro{ padding: 0 20px; margin-top: 100px; text-align: center; background: #fff; }
+.intro{ padding: 0 20px; margin-top: 100px; text-align: center; background: #fff; border-radius:15px;  }
 
 .intro .profile-img{ height: 200px; width: 200px; border-radius: 100px; margin: 0 auto; 
 	overflow: hidden; position: relative; top: -100px; margin-bottom: -70px;  }
