@@ -131,6 +131,8 @@ header .info .icon{ float: left; font-size: 30px; }
 
 header .info .right-area{ margin-left: 45px; }
 
+header .info h5{ line-height:2.6; }
+
 header .downlad-btn{ padding: 15px 30px; border-radius: 4px; float: right; margin-top: 30px;
 	box-shadow: inset 0 0px 4px rgba(0,0,0,.3); background: #1d1d1d; color: #fff; 
 	-webkit-transition: all .2s ease; transition: all .2s ease; }
