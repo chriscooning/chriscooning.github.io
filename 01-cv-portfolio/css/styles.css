@@ -173,7 +173,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 5. PORFOLIO SECTION
 --------------------------------- */
 
-.portfolio-section{ padding-bottom: 0; background-color: black; }
+.portfolio-section{ padding-bottom: 0; }
 
 .portfolio-section .portfolioFilter{ margin-top: 60px; color: #666; }
 
