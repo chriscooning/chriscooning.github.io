@@ -123,13 +123,13 @@ video {
 
 header{ position: absolute; top: 30px; left: 0; right: 0; z-index: 100; }
 
-header .heading-wrapper{ border-radius: 5px; padding: 20px 40px; background: #1d1d1d; color: #fff; border-radius:15px; }
+header .heading-wrapper{ text-align: center; border-radius: 5px; padding: 20px 40px; background: #1d1d1d; color: #fff; border-radius:15px; }
 
-/*  dont need this header .info{ margin-bottom: 10px; } */
+header .info { margin-bottom: 10px; vertical-align: sub; }
 
 header .info .icon{ float: left; font-size: 30px; }
 
-header .info .right-area{ margin-left: 45px; }
+header .info .right-area{ margin-left: 5px; display: inline-block; }
 
 header .info h5{ line-height:2.6; }
 
@@ -153,14 +153,14 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 .intro-section:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
 	height: 150px; z-index: -1; }
 
-.intro{ padding: 0 20px; margin-top: 100px; text-align: center; background: #fff; border-radius:15px;  }
+.intro{ padding: 0 20px; margin-top: 100px; text-align: center; background: rgba(255, 255, 255, 0.92); border-radius:15px;  }
 
 .intro .profile-img{ height: 200px; width: 200px; border-radius: 100px; margin: 0 auto; 
 	overflow: hidden; position: relative; top: -100px; margin-bottom: -70px;  }
 
 .intro .information > li{ display: block; margin: 5px 0; }
 
-.intro .social-icons > li > a{ height: 35px; line-height: 35px; width: 35px; border-radius: 20px; 
+.intro .social-icons > li > a{ height: 35px; line-height: 35px; width: 35px; padding: 5px; border-radius: 20px; 
 	overflow: hidden; z-index: 1; position: relative; margin: 0 5px 5px; background: #887392; color: #fff; }
 
 .intro .social-icons > li > a:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
@@ -169,6 +169,9 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 	-webkit-transform: scale(0); transform: scale(0); }
 
 .intro .social-icons > li > a:hover:after{ -webkit-transform: scale(1); transform: scale(1); }
+
+p .small {font-size: .08em;}
+
 
 
 /* ---------------------------------
