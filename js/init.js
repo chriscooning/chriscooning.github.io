@@ -656,6 +656,8 @@ var markChart = {
 
 /***** Engineering ******/
 
+/**** Charts init start
+ 
             var engChart = {
                 type: 'radar',
                 data: {
@@ -745,4 +747,4 @@ window.onload = function () {
 	window.myRadar = new Chart(document.getElementById("engChart"), engChart);
 			};
 
-/******* Charts init end ****/
+ Charts init end ****/
