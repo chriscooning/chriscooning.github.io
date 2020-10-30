@@ -531,7 +531,7 @@
 							<div data-ng-controller="ContactController" class="align-center wow fadeInUp" data-wow-duration=".4s">
 								<h3>Hello <span data-ng-bind="formData.inputName||'friend'"></span>, I'd love to hear from you.</h3>
 								<div>
-									<form data-ng-submit="submit(contactform, $event)" name="contactform" method="post" class="row form-horizontal" role="form">
+									<form data-ng-submit="submit(contactform, $event)" name="contactform" method="post" class="row form-horizontal" role="form" action="https://formspree.io/chriscooning@gmail.com">
 										<div class="form-group input--hoshi col-sm-6" data-ng-class="{ 'has-error': contactform.inputName.$invalid && submitted }">
 											<div class="input-wrap">
 												<input autocomplete="off" data-ng-model="formData.inputName" type="text" class="form-control input__field input input__field--hoshi" id="inputName" name="inputName" placeholder="Name" required>
