@@ -13,7 +13,7 @@ app.controller('ContactController', function ($scope, $http) {
         if (contactform.$valid) {
             $http({
                 method  : 'POST',
-                action: 'https://formspree.io/f/mgepyogj',
+                url: 'https://formspree.io/f/mgepyogj',
                 data    : $.param($scope.formData),  //param method from jQuery
                 headers : { 'Content-Type': 'application/x-www-form-urlencoded' }  //set the headers so angular passing info as form data (not request payload)
             }).success(function(data){
